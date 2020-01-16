@@ -21,4 +21,4 @@
   * 49 group-anagrams
 ## Update 2020-1-16
 * 123 Completed problems
-    * number-of-boomerangs
+    * 447 number-of-boomerangs
