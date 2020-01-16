@@ -19,3 +19,6 @@
   * 15 3sum
   * 16 3sum-closest
   * 49 group-anagrams
+## Update 2020-1-16
+* 123 Completed problems
+    * number-of-boomerangs
