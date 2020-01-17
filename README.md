@@ -22,3 +22,6 @@
 ## Update 2020-1-16
 * 123 Completed problems
     * 447 number-of-boomerangs
+## Update 2020-1-17
+* 124 Completed problems
+    * 149 max-points-on-a-line
