@@ -25,3 +25,11 @@
 ## Update 2020-1-17
 * 124 Completed problems
     * 149 max-points-on-a-line
+## Update 2020-1-18
+* 126 Completed problems
+    * 56 merge-intervals
+    * 86 partition-list
+    * 98 validate-binary-search-tree
+* 9 Reviewed problems
+    * 105 construct-binary-tree-from-preorder-and-inorder-traversal
+    * 102 binary-tree-level-order-traversal
