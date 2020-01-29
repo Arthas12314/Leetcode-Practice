@@ -33,3 +33,6 @@
 * 9 Reviewed problems
     * 105 construct-binary-tree-from-preorder-and-inorder-traversal
     * 102 binary-tree-level-order-traversal
+## Update 2020-1-19
+* 127 Completed problems
+    * 98 validate-binary-search-tree
