@@ -36,3 +36,10 @@
 ## Update 2020-1-19
 * 127 Completed problems
     * 98 validate-binary-search-tree
+## Update 2020-2-5
+* 127 Completed problems
+* 13 Reviewed problems
+    * 26 remove-duplicates-from-sorted-array
+    * 80 remove-duplicates-from-sorted-array-ii
+    * 33 search-in-rotated-sorted-array
+    * 81 search-in-rotated-sorted-array-ii
