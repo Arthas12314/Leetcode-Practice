@@ -43,3 +43,8 @@
     * 80 remove-duplicates-from-sorted-array-ii
     * 33 search-in-rotated-sorted-array
     * 81 search-in-rotated-sorted-array-ii
+## Update 2020-2-12
+* 127 Completed problems
+* 1 CodingInterviews
+    * 03 findRepeatNumber
+    * 04 findNumberIn2DArray

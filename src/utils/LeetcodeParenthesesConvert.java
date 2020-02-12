@@ -1,3 +1,5 @@
+package utils;
+
 public class LeetcodeParenthesesConvert {
     public static String convert(String text){
         StringBuilder res=new StringBuilder();
@@ -13,7 +15,7 @@ public class LeetcodeParenthesesConvert {
     }
 
     public static void main(String[] args) {
-        String res=LeetcodeParenthesesConvert.convert("[[1,3],[2,6],[8,10],[15,18]]");
+        String res=LeetcodeParenthesesConvert.convert("[[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]");
         System.out.println(res);
     }
 }
