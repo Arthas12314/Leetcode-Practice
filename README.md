@@ -45,6 +45,12 @@
     * 81 search-in-rotated-sorted-array-ii
 ## Update 2020-2-12
 * 127 Completed problems
-* 1 CodingInterviews
+* 2 CodingInterviews
     * 03 findRepeatNumber
     * 04 findNumberIn2DArray
+## Update 2020-2-13
+* 127 Completed problems
+* 2 CodingInterviews
+    * 05 replaceSpace
+    * 06 reversePrint
+    * 07 buildTree
