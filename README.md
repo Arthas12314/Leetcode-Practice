@@ -59,3 +59,12 @@
 * 7 CodingInterviews
     * 09 CQueue
     * 10-1 fib
+## Update 2020-2-26
+* 134 Completed problems
+    * 136 single-number
+    * 139 word-break
+    * 141 linked-list-cycle
+    * 142 linked-list-cycle-ii
+    * 146 lru-cache
+    * 155 min-stack
+    * 1114 print-in-order
