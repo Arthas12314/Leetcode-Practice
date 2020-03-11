@@ -68,3 +68,9 @@
     * 146 lru-cache
     * 155 min-stack
     * 1114 print-in-order
+## Update 2020-3-11
+* 134 Completed problems
+* 7 CodingInterviews
+    * 10-2 numWays
+    * 11 minArray
+    * 12 exist
