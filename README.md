@@ -74,3 +74,14 @@
     * 10-2 numWays
     * 11 minArray
     * 12 exist
+    * 13 movingCount
+    * 14-1 cuttingRope
+    * 14-2 cuttingRope
+    * 15 hammingWeight
+    * 16 myPow
+    * 17 printNumbers
+    * 18 deleteNode
+    * 21 exchange
+    * 22 getKthFromEnd
+    * 24 reverseList
+    * 25 mergeTwoLists
