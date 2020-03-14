@@ -4,17 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Solution07 {
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        if(preorder.length<1)   return null;
+        if (preorder.length < 1) {
+            return null;
+        }
         TreeNode root=new TreeNode(preorder[0]);
         TreeNode cur=root;
         LinkedList<TreeNode> temp=new LinkedList<>();
@@ -59,8 +52,9 @@ public class Solution07 {
     }
 
     public void preOrder(TreeNode root){
-        if(root==null)
+        if (root == null) {
             return;
+        }
         System.out.print(root.val+" ");
         preOrder(root.left);
         preOrder(root.right);
@@ -74,8 +68,12 @@ public class Solution07 {
             for(int i=0;i<len;i++){
                 TreeNode temp=queue.remove();
                 System.out.print(temp.val+ " ");
-                if(temp.left!=null)     queue.add(temp.left);
-                if(temp.right!=null)   queue.add(temp.right);
+                if (temp.left != null) {
+                    queue.add(temp.left);
+                }
+                if (temp.right != null) {
+                    queue.add(temp.right);
+                }
             }
         }
     }

@@ -85,3 +85,14 @@
     * 22 getKthFromEnd
     * 24 reverseList
     * 25 mergeTwoLists
+    * 26 isSubStructure
+    * 27 mirrorTree
+    * 28 isSymmetric
+    * 29 spiralOrder
+    * 30 **MinStack**
+    * 31 **validateStackSequences**
+    * 32-1 levelOrder
+    * 32-2 levelOrder
+    * 32-3 levelOrder
+    * 33 verifyPostorder
+    
