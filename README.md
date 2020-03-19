@@ -70,7 +70,7 @@
     * 1114 print-in-order
 ## Update 2020-3-11
 * 134 Completed problems
-* 7 CodingInterviews
+* 31 CodingInterviews
     * 10-2 numWays
     * 11 minArray
     * 12 exist
@@ -95,4 +95,17 @@
     * 32-2 levelOrder
     * 32-3 levelOrder
     * 33 verifyPostorder
+## Update 2020-3-16
+* 134 Completed problems
+* 31 CodingInterviews
+    * 34 pathSum
+    * 35 copyRandomList
+    * 36 treeToDoublyList
+    * 37 Codec
+    * 38 permutation
+    * 39 majorityElement **摩尔投票**
+    * 40 getLeastNumbers
+    * 41 MedianFinder
+    * 42 maxSubArray
+    * 43 countDigitOne
     

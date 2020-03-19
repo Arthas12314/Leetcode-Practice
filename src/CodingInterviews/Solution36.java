@@ -28,7 +28,7 @@ public class Solution36 {
     Node head=null;
     Node pre=null;
     public Node treeToDoublyList(Node root) {
-        if(root==null){
+        if (root == null) {
             return null;
         }
         inorder(root);
@@ -38,7 +38,7 @@ public class Solution36 {
     }
 
     private void inorder(Node node){
-        if(node==null){
+        if (node == null) {
             return;
         }
         inorder(node.left);
@@ -54,7 +54,7 @@ public class Solution36 {
 
     public static void main(String[] args) {
         int[] a={4,2,5,1,3};
-        BuildBST buildBST=new BuildBST();
+        BuildBST buildBST = new BuildBST();
         Node root=null;
         for (int i = 0; i < a.length; i++) {
             root=buildBST.buildTree(root,a[i]);
