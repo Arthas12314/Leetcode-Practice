@@ -2,6 +2,9 @@ package CodingInterviews;
 
 import java.util.HashMap;
 
+/**
+ * @author Arthas
+ */
 public class Solution35 {
     public Node copyRandomList(Node head) {
         if (head == null) {
