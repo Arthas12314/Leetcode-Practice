@@ -97,7 +97,7 @@
     * 33 verifyPostorder
 ## Update 2020-3-16
 * 134 Completed problems
-* 31 CodingInterviews
+* 46 CodingInterviews
     * 34 pathSum
     * 35 copyRandomList
     * 36 treeToDoublyList
@@ -108,4 +108,15 @@
     * 41 MedianFinder
     * 42 maxSubArray
     * 43 countDigitOne
+    * 44 findNthDigit
+    * 45 minNumber
+    * 46 translateNum
+    * 47 maxValue
+    * 48 lengthOfLongestSubstring
+## Update 3-29
+* 134 Completed problems
+* 49 CodingInterviews
+    * 49 nthUglyNumber
+    * 50 firstUniqChar
+    * 52 getIntersectionNode 
     
