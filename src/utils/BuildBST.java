@@ -1,6 +1,6 @@
 package utils;
 
-import CodingInterviews.Solution36.Node;
+import codinginterviews.Solution36.Node;
 
 public class BuildBST {
     public Node buildTree(Node node,int value){

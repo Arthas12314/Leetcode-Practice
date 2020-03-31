@@ -45,18 +45,18 @@
     * 81 search-in-rotated-sorted-array-ii
 ## Update 2020-2-12
 * 127 Completed problems
-* 2 CodingInterviews
+* 2 codinginterviews
     * 03 findRepeatNumber
     * 04 findNumberIn2DArray
 ## Update 2020-2-13
 * 127 Completed problems
-* 5 CodingInterviews
+* 5 codinginterviews
     * 05 replaceSpace
     * 06 reversePrint
     * 07 buildTree
 ## Update 2020-2-15
 * 127 Completed problems
-* 7 CodingInterviews
+* 7 codinginterviews
     * 09 CQueue
     * 10-1 fib
 ## Update 2020-2-26
@@ -70,7 +70,7 @@
     * 1114 print-in-order
 ## Update 2020-3-11
 * 134 Completed problems
-* 31 CodingInterviews
+* 31 codinginterviews
     * 10-2 numWays
     * 11 minArray
     * 12 exist
@@ -97,7 +97,7 @@
     * 33 verifyPostorder
 ## Update 2020-3-16
 * 134 Completed problems
-* 46 CodingInterviews
+* 46 codinginterviews
     * 34 pathSum
     * 35 copyRandomList
     * 36 treeToDoublyList
@@ -115,8 +115,23 @@
     * 48 lengthOfLongestSubstring
 ## Update 3-29
 * 134 Completed problems
-* 49 CodingInterviews
+* 49 codinginterviews
     * 49 nthUglyNumber
     * 50 firstUniqChar
     * 52 getIntersectionNode 
+## Update 3-31
+* 134 Completed problems
+* 49 codinginterviews
+    * 53-1 search
+    * 53-2 missingNumber
+    * 54 kthLargest
+    * 55-1 maxDepth
+    * 55-2 isBalanced
+    * 56-1 singleNumbers
+    * 56-2 singleNumber
+    * 57-1 twoSum
+    * 57-2 findContinuousSequence
+    * 58-1 reverseWords
+    * 58-2 reverseLeftWords
+    * 59-1 maxSlidingWindow
     
