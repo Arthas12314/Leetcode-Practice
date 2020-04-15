@@ -121,7 +121,7 @@
     * 52 getIntersectionNode 
 ## Update 3-31
 * 134 Completed problems
-* 49 codinginterviews
+* 61 codinginterviews
     * 53-1 search
     * 53-2 missingNumber
     * 54 kthLargest
@@ -134,4 +134,14 @@
     * 58-1 reverseWords
     * 58-2 reverseLeftWords
     * 59-1 maxSlidingWindow
+## Update 4-14
+*134 Compelted problems
+* 68 codinginterviews
+    * 61 isStraight
+    * 62 lastRemaining
+    * 63 maxProfit
+    * 64 sumNums
+    * 65 add
+    * 66 constructArr
+    * 67 strToInt
     
