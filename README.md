@@ -144,4 +144,18 @@
     * 65 add
     * 66 constructArr
     * 67 strToInt
+## Update 4-14
+* 134 Compelted problems
+    * 226 
+    * 160
+    * 169
+    * 198
+* 13 Reviewed problems
+    * 2 addTwoNumbers
+    * 6 convert
+    * 7 reverse
+    * 9 isPalindrome
+    * 12 intToRoman
+    * 13 romanToInt
+* 68 codinginterviews
     
