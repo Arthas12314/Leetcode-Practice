@@ -161,6 +161,15 @@
 ## Update 5-15
 * 135 Completed problems
     * 437 path-sum-iii
+## Update 5-21
 * 136 Completed problems
     * 538 convert-bst-to-greater-tree
+## Update 5-22
+* 138 Completed problems
+    * 448 findDisappearedNumbers
+    * 461 hammingDistance
+## Update 5-23
+* 140 Completed problems
+    * 543 diameterOfBinaryTree
+    * 581 findUnsortedSubarray
     
