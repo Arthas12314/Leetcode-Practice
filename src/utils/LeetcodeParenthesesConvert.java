@@ -19,7 +19,7 @@ public class LeetcodeParenthesesConvert {
     }
 
     public static void main(String[] args) {
-        String res=LeetcodeParenthesesConvert.convert("[1,3,1],[1,5,1],[4,2,1]");
+        String res=LeetcodeParenthesesConvert.convert("[[\"1\",\"1\",\"1\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"0\",\"0\",\"0\"]]");
         System.out.println(res);
     }
 }
