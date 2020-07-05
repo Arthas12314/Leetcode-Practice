@@ -1,15 +1,18 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
+/**
+ * @author Arthas
+ */
 public class Solution1 {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer,Integer> map=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
+        Map<Integer,Integer> map=new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
             int temp=target-nums[i];
-            if(map.containsKey(temp))
+            if (map.containsKey(temp)) {
                 return new int[]{i,map.get(temp)};
-            map.put(nums[i],i);
+            }
+            map.put(temp,i);
         }
         return new int[2];
     }
