@@ -181,3 +181,10 @@
     * 236 lowestCommonAncestor
 * 14 Reviewed problems
     * 2 add-two-numbers
+## Update 7-3
+* 144 Completed problems
+    * 217 containsDuplicate
+## Update 7-15
+* 145 Completed problems
+    * 100 isSameTree
+    * 1011 shipWithinDays
