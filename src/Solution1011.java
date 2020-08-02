@@ -16,18 +16,18 @@ public class Solution1011 {
         return l;
     }
 
-    private boolean canShip(int[] weights, int D, int K) {
-        int shipCapacity = K;
+    private boolean canShip(int[] weights, int date, int capacity) {
+        int currentCapacity = capacity;
         for (int i = 0; i < weights.length; i++) {
-            if (weights[i] > K) {
+            if (weights[i] > capacity) {
                 return false;
             }
-            if (weights[i] < shipCapacity) {
-                shipCapacity = K;
-                D--;
+            if (weights[i] > currentCapacity) {
+                currentCapacity = capacity;
+                date--;
             }
-            shipCapacity -= weights[i];
+            currentCapacity -= weights[i];
         }
-        return D > 0;
+        return date > 0;
     }
 }

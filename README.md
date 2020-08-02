@@ -185,6 +185,11 @@
 * 144 Completed problems
     * 217 containsDuplicate
 ## Update 7-15
-* 145 Completed problems
+* 146 Completed problems
     * 100 isSameTree
     * 1011 shipWithinDays
+## Update 8-3
+* 146 Completed problems
+* 15 Reviewed problems
+    * 34 searchRange
+    
