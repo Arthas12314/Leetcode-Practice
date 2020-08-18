@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -26,10 +27,10 @@ public class Solution148 {
         while (node1 != null && node2 != null) {
             if (node1.val > node2.val) {
                 cur.next = node2;
-                node2=node2.next;
+                node2 = node2.next;
             } else {
                 cur.next = node1;
-                node1=node1.next;
+                node1 = node1.next;
             }
             cur = cur.next;
         }
@@ -42,8 +43,8 @@ public class Solution148 {
         ListNode cur = listNode;
         Random random = new Random();
         for (int i = 0; i < 10; i++) {
-            cur.next = new ListNode(random.nextInt()%10);
-            cur=cur.next;
+            cur.next = new ListNode(random.nextInt() % 10);
+            cur = cur.next;
         }
         Solution148 t = new Solution148();
         System.out.println(t.sortList(listNode));

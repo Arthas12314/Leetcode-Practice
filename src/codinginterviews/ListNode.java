@@ -1,18 +1,25 @@
 package codinginterviews;
 
-class ListNode {
-    int val;
-    ListNode next;
-    public ListNode(int x) { val = x; }
-    public ListNode(int[] arr){
+/**
+ * @author Arthas
+ */
+public class ListNode {
+    public int val;
+    public ListNode next;
+
+    public ListNode(int x) {
+        val = x;
+    }
+
+    public ListNode(int[] arr) {
         if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("arr cannot be empty.");
         }
-        this.val=arr[0];
-        ListNode temp=this;
-        for(int i=1;i<arr.length;i++){
-            temp.next=new ListNode(arr[i]);
-            temp=temp.next;
+        this.val = arr[0];
+        ListNode temp = this;
+        for (int i = 1; i < arr.length; i++) {
+            temp.next = new ListNode(arr[i]);
+            temp = temp.next;
         }
     }
 
