@@ -199,3 +199,16 @@
     * 459
     * 491
     * 332
+## Update 8-30
+* 158 Completed problems
+    * 214
+    * 557
+    * 230
+    * 231 
+    * 235
+    * 237
+    * 238
+## Update 8-31
+* 158 Completed problems
+    * 841 canVisitAllRooms
+    

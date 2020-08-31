@@ -1,29 +1,29 @@
+import java.util.Arrays;
 
 /**
  * @author Arthas
  */
 public class Solution34 {
     public int[] searchRange(int[] nums, int target) {
-        int l = 0, r = nums.length - 1;
         int[] res = {-1, -1};
-        if (r < 0) {
-            return new int[]{};
-        }
-        while (l < r) {
-            int mid = l + ((r - l) >> 2);
-            if (nums[mid] < target) {
-                l = mid + 1;
-            } else {
-                r = mid;
-            }
-        }
-        if (nums[l] != target) {
+        if (nums == null || nums.length < 1) {
             return res;
+        }
+        int l = 0;
+        int r = nums.length - 1;
+        int mid;
+        while (l < r) {
+            mid = (r - l) / 2 + l;
+            if (nums[mid] >= target) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
         }
         res[0] = l;
         r = nums.length - 1;
         while (l < r) {
-            int mid = (r - l) >> 2 + l;
+            mid = (r - l + 1) / 2 + l;
             if (nums[mid] > target) {
                 r = mid - 1;
             } else {
@@ -32,5 +32,11 @@ public class Solution34 {
         }
         res[1] = r;
         return res;
+    }
+
+    public static void main(String[] args) {
+        Solution34 t = new Solution34();
+        int[] nums = {5, 7, 7, 8, 8, 10};
+        System.out.println(Arrays.toString(t.searchRange(nums, 8)));
     }
 }
