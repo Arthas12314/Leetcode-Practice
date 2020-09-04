@@ -209,6 +209,20 @@
     * 237
     * 238
 ## Update 8-31
-* 158 Completed problems
+* 159 Completed problems
     * 841 canVisitAllRooms
+# Update 9-1
+* 160 Completed problems
+    * 486
+# Update 9-2
+* 162 Completed problems
+    * 19
+    * 89
+# Update 9-3
+* 162 Completed problems
+* 15 Reviewed problems
+    * 19
+    * 21
+    * 22
+    * 24
     
