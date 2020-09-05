@@ -220,9 +220,22 @@
     * 89
 # Update 9-3
 * 162 Completed problems
-* 15 Reviewed problems
+* 19 Reviewed problems
     * 19
     * 21
     * 22
     * 24
+# Update 9-3
+* 164 Completed problems
+    * 257 
+* 19 Reviewed problems
+# Update 9-4
+* 164 Completed problems
+* 20 Reviewed problems
+    * 28 
+# Update 9-5
+* 164 Completed problems
+    * 29
+* 20 Reviewed problems
+
     
