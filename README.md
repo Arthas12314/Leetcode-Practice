@@ -236,6 +236,15 @@
 # Update 9-5
 * 164 Completed problems
     * 29
+    * 32
 * 20 Reviewed problems
+    * 31
+    * 33
+    * 34
+    * 35
+    * 36
+    * 38
+    * 39
+    * 40
 
     
