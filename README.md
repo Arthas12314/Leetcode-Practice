@@ -234,10 +234,10 @@
 * 20 Reviewed problems
     * 28 
 # Update 9-5
-* 164 Completed problems
+* 166 Completed problems
     * 29
     * 32
-* 20 Reviewed problems
+* 28 Reviewed problems
     * 31
     * 33
     * 34
@@ -246,5 +246,18 @@
     * 38
     * 39
     * 40
+# Update 9-6
+* 169 Completed problems
+    * 41
+    * 42
+    * 45
+# Update 9-7
+* 169 Completed problems
+* 28 Reviewed problems
+    * 46
+    * 47
+    * 48
+    * 49
+    * 50
 
     

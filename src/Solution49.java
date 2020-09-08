@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 /*
 * 在美版leetcode上看到大神的思路，用质数表示26个字母，把字符串的各个字母相乘，
@@ -14,8 +17,9 @@ public class Solution49 {
             char[] s = str.toCharArray();
             Arrays.sort(s);
             String key = String.valueOf(s);
-            if (!map.containsKey(key))
+            if (!map.containsKey(key)) {
                 map.put(key, new ArrayList<>());
+            }
             map.get(key).add(str);
         }
         return new ArrayList<>(map.values());
