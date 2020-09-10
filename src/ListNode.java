@@ -12,8 +12,9 @@ public class ListNode {
     }
 
     public ListNode(int[] arr) {
-        if (arr == null || arr.length == 0)
+        if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("arr cannot be empty.");
+        }
         this.val = arr[0];
         ListNode temp = this;
         for (int i = 1; i < arr.length; i++) {
