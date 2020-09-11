@@ -260,9 +260,9 @@
     * 49
     * 50
 # Update 9-10
-* 169 Completed problems
+* 170 Completed problems
     * 57
-* 32 Reviewed problems
+* 39 Reviewed problems
     * 53
     * 54
     * 55
@@ -270,5 +270,14 @@
     * 58
     * 59
     * 60
+# Update 9-11
+* 170 Completed problems
+    * 216
+* 39 Reviewed problems
+    * 61
+    * 62
+    * 63
+    * 64
+    * 66
 
     
