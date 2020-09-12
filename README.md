@@ -271,13 +271,23 @@
     * 59
     * 60
 # Update 9-11
-* 170 Completed problems
+* 171 Completed problems
     * 216
-* 39 Reviewed problems
+* 44 Reviewed problems
     * 61
     * 62
     * 63
     * 64
     * 66
+# Update 9-12
+* 171 Completed problems
+    * 746
+    * 509
+    * 1137
+* 44 Reviewed problems
+    * 67
+    * 69
+    * 70
+    * 71
 
     
