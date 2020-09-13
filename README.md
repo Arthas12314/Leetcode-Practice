@@ -280,14 +280,19 @@
     * 64
     * 66
 # Update 9-12
-* 171 Completed problems
+* 174 Completed problems
     * 746
     * 509
     * 1137
-* 44 Reviewed problems
+* 48 Reviewed problems
     * 67
     * 69
     * 70
     * 71
+# Update 9-13
+* 174 Completed problems
+* 48 Reviewed problems
+    * 71
+    * 79
 
     
