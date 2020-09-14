@@ -291,8 +291,15 @@
     * 71
 # Update 9-13
 * 174 Completed problems
-* 48 Reviewed problems
+* 50 Reviewed problems
     * 71
     * 79
-
+# Update 9-14
+* 174 Completed problems
+* 50 Reviewed problems
+    * 73
+    * 74
+    * 75
+    * 77
+    * 94
     
