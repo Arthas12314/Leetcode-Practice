@@ -296,10 +296,14 @@
     * 79
 # Update 9-14
 * 174 Completed problems
-* 50 Reviewed problems
+* 55 Reviewed problems
     * 73
     * 74
     * 75
     * 77
     * 94
+# Update 9-14
+* 174 Completed problems
+* 55 Reviewed problems
+    * 78
     
