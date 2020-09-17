@@ -304,6 +304,17 @@
     * 94
 # Update 9-14
 * 174 Completed problems
-* 55 Reviewed problems
+* 56 Reviewed problems
     * 78
+# Update 9-17
+* 174 Completed problems
+    * 84
+    * 85
+    * 87
+* 56 Reviewed problems
+    * 80
+    * 81
+    * 82
+    * 83
+    * 86
     
