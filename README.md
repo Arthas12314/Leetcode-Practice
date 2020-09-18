@@ -307,14 +307,21 @@
 * 56 Reviewed problems
     * 78
 # Update 9-17
-* 174 Completed problems
+* 177 Completed problems
     * 84
     * 85
     * 87
-* 56 Reviewed problems
+* 61 Reviewed problems
     * 80
     * 81
     * 82
     * 83
     * 86
+# Update 9-18
+* 177 Completed problems
+* 61 Reviewed problems
+    * 90
+    * 91
+    * 92
+    * 93
     
