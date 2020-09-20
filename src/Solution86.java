@@ -1,3 +1,6 @@
+/**
+ * @author Arthas
+ */
 public class Solution86 {
     public ListNode partition(ListNode head, int x) {
         if (head == null) {

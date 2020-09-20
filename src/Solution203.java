@@ -1,7 +1,23 @@
 import java.util.Random;
 
 public class Solution203 {
-    public ListNode removeElements(ListNode head,int val,int depth){
+    public static void main(String[] args) {
+        Solution203 t = new Solution203();
+        int[] arr = new int[6];
+        Random random = new Random();
+        for (int i = 0; i < 6; i++) {
+            arr[i] = i;//random.nextInt(10);
+        }
+        ListNode head = new ListNode(arr);
+        double startTime = System.nanoTime();
+        head = t.removeElements(head, 2, 0);
+        double endTime = System.nanoTime();
+        System.out.println(head);
+        System.out.println();
+        System.out.println(endTime - startTime);
+    }
+
+    public ListNode removeElements(ListNode head, int val, int depth) {
         /*while(head!=null && head.val==val){
             ListNode delNode=head;
             head=head.next;
@@ -51,48 +67,33 @@ public class Solution203 {
         return head.val==val?head.next:head;*/
         String depthString = generateDepthString(depth);
         System.out.print(depthString);
-        System.out.println("Call:remove "+val + " in "+head);
+        System.out.println("Call:remove " + val + " in " + head);
 
-        if(head==null){
+        if (head == null) {
             System.out.print(depthString);
             System.out.println("Return " + head);
             return null;
         }
-        ListNode res=removeElements(head.next,val,depth+1);
+        ListNode res = removeElements(head.next, val, depth + 1);
         System.out.print(depthString);
-        System.out.println("After remove " + val +": " +res);
+        System.out.println("After remove " + val + ": " + res);
         ListNode ret;
-        if(head.val==val)
-            ret=res;
-        else {
-            head.next=res;
-            ret=head;
+        if (head.val == val) {
+            ret = res;
+        } else {
+            head.next = res;
+            ret = head;
         }
         System.out.print(depthString);
-        System.out.println("Return: "+ ret+ " ");
+        System.out.println("Return: " + ret + " ");
         return ret;
     }
 
-    private String generateDepthString(int depth){
-        StringBuilder res=new StringBuilder();
-        for(int i=0;i<depth;i++)
+    private String generateDepthString(int depth) {
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < depth; i++) {
             res.append("--");
-        return res.toString();
-    }
-
-    public static void main(String[] args) {
-        Solution203 t=new Solution203();
-        int[] arr=new int[6];
-        Random random=new Random();
-        for(int i=0;i<6;i++){
-            arr[i]=i;//random.nextInt(10);
         }
-        ListNode head=new ListNode(arr);
-        double startTime =System.nanoTime();
-        head=t.removeElements(head,2,0);
-        double endTime =System.nanoTime();
-        System.out.println(head);
-        System.out.println();
-        System.out.println(endTime-startTime);
+        return res.toString();
     }
 }

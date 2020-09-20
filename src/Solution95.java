@@ -1,7 +1,12 @@
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @author Arthas
+ */
 public class Solution95 {
+
     public List<TreeNode> generateTrees(int n) {
         if (n < 1) {
             return new LinkedList<>();
@@ -9,21 +14,26 @@ public class Solution95 {
         return generate(1, n);
     }
 
-    private List<TreeNode> generate(int l, int r) {
-        List<TreeNode> res = new LinkedList<>();
-        if (l > r) {
+    private List<TreeNode> generate(int left, int right) {
+        List<TreeNode> res = new ArrayList<>();
+        if (left > right) {
             res.add(null);
             return res;
         }
-        for (int i = l; i <= r; i++) {
-            List<TreeNode> leftTrees = generate(l, i - 1);
-            List<TreeNode> rightTrees = generate(i + 1, r);
-            for (TreeNode left : leftTrees) {
-                for (TreeNode right : rightTrees) {
-                    TreeNode temp = new TreeNode(i);
-                    temp.left = left;
-                    temp.right = right;
-                    res.add(temp);
+        if (left == right) {
+            TreeNode node = new TreeNode(left);
+            res.add(node);
+            return res;
+        }
+        for (int i = left; i <= right; i++) {
+            List<TreeNode> leftTrees = generate(left, i);
+            List<TreeNode> rightTrees = generate(i, right);
+            for (TreeNode leftNode : leftTrees) {
+                for (TreeNode rightNode : rightTrees) {
+                    TreeNode node = new TreeNode(i);
+                    node.left = leftNode;
+                    node.right = rightNode;
+                    res.add(node);
                 }
             }
         }

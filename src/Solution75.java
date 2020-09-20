@@ -1,3 +1,6 @@
+/**
+ * @author Arthas
+ */
 public class Solution75 {
     public void sortColors(int[] nums) {
         int l = 0, i = 0, r = nums.length - 1;

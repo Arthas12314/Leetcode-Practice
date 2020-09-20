@@ -325,9 +325,19 @@
     * 92
     * 93
 # Update 9-19
-* 177 Completed problems
+* 178 Completed problems
     * 404
-* 65 Reviewed problems
+* 67 Reviewed problems
     * 283
     * 88
+# Update 9-20
+* 178 Completed problems
+    * 328
+* 67 Reviewed problems
+    * 349
+    * 205
+    * 206
+    * 215
+    * 95
+    * 96
     
