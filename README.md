@@ -331,13 +331,27 @@
     * 283
     * 88
 # Update 9-20
-* 178 Completed problems
+* 179 Completed problems
     * 328
-* 67 Reviewed problems
+* 73 Reviewed problems
     * 349
     * 205
     * 206
     * 215
     * 95
     * 96
+# Update 9-22
+* 183 Completed problems
+    * 445
+    * 968
+    * 97
+    * 99
+* 80 Reviewed problems
+    * 98
+    * 100
+    * 101
+    * 102
+    * 103
+    * 104
+    * 105
     

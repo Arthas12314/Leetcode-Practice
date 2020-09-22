@@ -1,11 +1,13 @@
 public class Solution98 {
-    long last=Long.MIN_VALUE;
+    long last = Long.MIN_VALUE;
+
     public boolean isValidBST(TreeNode root) {
-        if(root==null)
+        if (root == null) {
             return true;
-        if(isValidBST(root.left)){
-            if(last<root.val){
-                last=root.val;
+        }
+        if (isValidBST(root.left)) {
+            if (last < root.val) {
+                last = root.val;
                 return isValidBST(root.right);
             }
         }
