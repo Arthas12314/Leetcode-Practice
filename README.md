@@ -354,4 +354,12 @@
     * 103
     * 104
     * 105
+# Update 9-23
+* 183 Completed problems
+* 81 Reviewed problems
+    * 148
+# Update 10-9
+* 183 Completed problems
+    * 106
+* 81 Reviewed problems
     

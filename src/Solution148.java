@@ -8,7 +8,8 @@ public class Solution148 {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode slow = head, fast = head.next;
+        ListNode fast = head;
+        ListNode slow = head;
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;
@@ -21,20 +22,20 @@ public class Solution148 {
     }
 
     private ListNode mergeList(ListNode node1, ListNode node2) {
-        ListNode pre = new ListNode(-1);
-        ListNode cur = pre;
+        ListNode dummy = new ListNode(-1);
+        ListNode cur = dummy;
         while (node1 != null && node2 != null) {
-            if (node1.val > node2.val) {
-                cur.next = node2;
-                node2 = node2.next;
-            } else {
+            if (node1.val < node2.val) {
                 cur.next = node1;
                 node1 = node1.next;
+            } else {
+                cur.next = node2;
+                node2 = node2.next;
             }
             cur = cur.next;
         }
         cur.next = node1 == null ? node2 : node1;
-        return pre.next;
+        return dummy.next;
     }
 
     public static void main(String[] args) {

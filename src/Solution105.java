@@ -19,9 +19,9 @@ public class Solution105 {
         }
         TreeNode root = new TreeNode(preorder[0]);
         TreeNode cur = root;
-        Deque<TreeNode> deque = new ArrayDeque<>();
         int preOrderIndex = 1;
         int inOrderIndex = 0;
+        Deque<TreeNode> deque = new ArrayDeque<>();
         deque.add(root);
         while (preOrderIndex < preorder.length) {
             if (cur.val == inorder[inOrderIndex]) {
