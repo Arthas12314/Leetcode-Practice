@@ -51,12 +51,7 @@ public class Solution56 {
         if (len < 1 || intervals[0].length < 1) {
             return intervals;
         }
-        Arrays.sort(intervals, new Comparator<>() {
-            @Override
-            public int compare(int[] nums1, int[] nums2) {
-                return Integer.compare(nums1[0], nums2[0]);
-            }
-        });
+        Arrays.sort(intervals, Comparator.comparingInt(nums -> nums[0]));
         int left = 0, right = 0;
         for (int i = 0; i < len; i++) {
             left = intervals[i][0];

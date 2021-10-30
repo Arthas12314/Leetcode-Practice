@@ -35,7 +35,7 @@ public class Solution451 {
         });
         //拼接字符串
         for(Pair p:list){
-            res.append(String.valueOf(p.key).repeat(Math.max(0, p.value)));
+            //res.append(String.valueOf(p.key).repeat(Math.max(0, p.value)));
         }
         return res.reverse().toString();
     }

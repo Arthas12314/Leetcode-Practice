@@ -18,7 +18,7 @@ public class SplitString {
                 len+=8;
                 System.out.println(line.substring(temp,len));
             }
-            System.out.println(line.substring(len) + "0".repeat(Math.max(0, 8 - (line.length() - len))));
+            //System.out.println(line.substring(len) + "0".repeat(Math.max(0, 8 - (line.length() - len))));
         }
     }
 }
