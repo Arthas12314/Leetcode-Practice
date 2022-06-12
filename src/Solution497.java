@@ -2,59 +2,41 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-// TODO
+// sb
 public class Solution497 {
-    private Random random;
-    
-    private List<Rectangle> rectangleList;
-    
-    class Rectangle {
-        private int ai;
-        
-        private int bi;
-        
-        private int xi;
-        
-        private int yi;
-        
-        public Rectangle(int ai, int bi, int xi, int yi) {
-            this.ai = ai;
-            this.bi = bi;
-            this.xi = xi;
-            this.yi = yi;
+    private Random r = new Random();
+
+    int n;
+    long[] sum;
+    long total;
+    int[][] rects;
+
+    public Solution497(int[][] _rects) {
+        this.rects = _rects;
+        n = rects.length;
+        sum = new long[n + 1];
+        for(int i = 0; i < n; i++) {
+            sum[i + 1] = sum[i] + (rects[i][2] - rects[i][0] + 1) * (rects[i][3] - rects[i][1] + 1);
         }
-        
-        public int getAi() {
-            return ai;
-        }
-        
-        public int getBi() {
-            return bi;
-        }
-        
-        public int getXi() {
-            return xi;
-        }
-        
-        public int getYi() {
-            return yi;
-        }
+        total = sum[n];
     }
-    
-    public Solution497(int[][] rects) {
-        random = new Random();
-        rectangleList = new ArrayList<>();
-        for (int i = 0; i < rects.length; i++) {
-            rectangleList.add(new Rectangle(rects[i][0], rects[i][1], rects[i][2], rects[i][3]));
-        }
-    }
-    
+
     public int[] pick() {
-        Rectangle rectangle = rectangleList.size() == 1 ? rectangleList.get(0)
-            : rectangleList.get(random.nextInt(rectangleList.size() - 1));
-        
-        int x = random.nextInt(rectangle.xi - rectangle.ai) + rectangle.ai;
-        int y = random.nextInt(rectangle.yi - rectangle.bi) + rectangle.bi;
-        return new int[] {x, y};
+        long v = r.nextLong()%(total + 1);
+        int idx = index(v);
+        int[] arr = rects[idx];
+        return new int[]{arr[0] + r.nextInt(arr[2] - arr[0] + 1), arr[1] + r.nextInt(arr[3] - arr[1] + 1)};
+    }
+
+    private int index(long v) {
+        int start = 1;
+        int end = sum.length - 1;
+        int mid;
+        while(start < end) {
+            mid = (start + end) >> 1;
+            if(sum[mid] < v + 1) start = mid + 1;
+            else end = mid;
+        }
+        return start - 1;
     }
 }
